@@ -11,28 +11,27 @@
   </head>
 <body>
 
-<section class="pad-t-2 pad-b-2 gutter">
-  <div>
-    <h1 class="normal">Want to go to Mars?</h1>
-    <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+<section class="pad-t-2 wrapper gutter">
     <form class="push-0" method="POST" action="https://formspree.io/stephaniersp@gmail.com">
-      <fieldset>
-        <legend class="italic">Personal details</legend>
+      <h1 class="normal text-left">Want to go to Mars?</h1>
+      <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <fieldset class="border">
+        <legend class="push pad-b-0 italic">Personal details</legend>
       </fieldset>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
           <label for="name">Name</label>
           <input id="name" name="name">
         </div>
-        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 box">
           <label for="name">Age</label>
           <input id="age" name="age">
         </div>
-        <div>
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
           <label for="email">Email</label>
           <input id="email" name="email">
         </div>
-        <div>
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
           <label for="physicalfitness">Physical fitness</label>
           <select id="physicalfitness" name="Physical fitness">
             <option>Super-human</option>
@@ -42,25 +41,24 @@
           </select>
         </div>
       </div>
-      <div class="push">
+      <div class="push class="unit xs-1 s-1 m-1 l-1-2 xl-1-2"">
         <label for="address">Address</label>
         <textarea id="address" name="Address"></textarea>
       </div>
-      <fieldset>
-        <legend class="italic">Mission statement</legend>
+      <fieldset class="border push">
+        <legend class="italic" type="text">Mission statement</legend>
       </fieldset>
       <div>
         <label for="why">Why do you want to go to Mars?</label>
         <textarea id="why" name="Why do you want to go to Mars?"></textarea>
       </div>
       <div>
-        <button class="btn">Register for the trip!</button>
+        <button class="btn" type="submit">Register for the trip!</button>
       </div>
       <div>
         <input type="hidden" value="Request to join the mission">
       </div>
     </form>
-  </div>
 </section>
 
 
