@@ -8,9 +8,10 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
   </head>
-  <body class="pad-t-1-2 gutter-1-2">
-    <form class="island-1 gutter-1-2" method="POST" action="https://formspree.io/stephaniersp@gmail.com">
+  <body class="pad-t-2 gutter-1-2 wrapper">
+    <form class="island-1-2 gutter-1-2" method="POST" action="https://formspree.io/stephaniersp@gmail.com">
     <h1 class="not-bold text-left">Want to go to Mars?</h1>
     <p class="mega push gutter-1-4">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 
@@ -51,24 +52,21 @@
       </div>
     </fieldset>
 
-<fieldset class="border">
-<legend class="italic not-bold giga">Mission statement</legend>
+    <fieldset class="border">
+      <legend class="italic not-bold giga">Mission statement</legend>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1 xl-1 ib">
+          <label for="why">Why do you want to go to Mars?</label>
+          <textarea id="why" name="Why do you want to go to Mars?"></textarea>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1 xl-1 block text-center pad-t">
+          <button type="submit" class="btn">Register for the trip!</button>
+        </div>
+      </div>
+    </fieldset>
 
-<div class="grid">
-<div class="unit xs-1 s-1 m-1 l-1 xl-1 block">
-<label for="why">Why do you want to go to Mars?</label>
-<textarea id="why" name="Why do you want to go to Mars?"></textarea>
-</div>
-<div class="unit xs-1 s-1 m-1 l-1 xl-1 block text-center pad-t">
-<button type="submit" class="btn">Register for the trip!</button>
-</div>
-</div>
-</fieldset>
-
-<input type="hidden" name="hidden" value="Request to join the mission">
-</form>
-
-
+    <input type="hidden" name="hidden" value="Request to join the mission">
+    </form>
 
 </body>
 </html>
